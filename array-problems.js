@@ -1,5 +1,14 @@
-// Get the product of all other elements
-const product = (arr) => {
+/**
+ * Problem: Get the product of all other elements
+ * Solution: Prefix and Postfix/Suffix
+ * Time:
+ * Space:
+ * https://leetcode.com/problems/product-of-array-except-self/
+ *  */ 
+
+const inputOne = [1,2,3,4];
+
+const product = arr => {
     const length = arr.length;
     var prefix = [arr[0]];
     var postfix = new Array(length).fill(0); // need to initialize this array
@@ -33,4 +42,19 @@ const product = (arr) => {
     return output;
 }
 
-console.log(product([1,2,3,4]));
+console.log(product(inputOne));
+
+/**
+ * Problem: Locate smallest window to be sorted
+ * Solution: Compute running min/max/count
+ * Time:
+ * Space:
+ */
+
+const inputTwo = [3, 7, 5, 6, 9];
+
+const smallestWindow = arr => {
+
+}
+
+console.log(smallestWindow(inputTwo));
